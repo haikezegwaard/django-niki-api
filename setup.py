@@ -10,7 +10,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
     name='django-niki-api',
     version='0.1',
-    packages=['niki-api'],
+    packages=['niki'],
     include_package_data=True,
     license='BSD License',  # example license
     description='A Django implementation of the Niki API.',
