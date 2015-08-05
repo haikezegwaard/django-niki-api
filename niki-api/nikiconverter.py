@@ -1,5 +1,6 @@
 import requests
 import logging
+from django.conf import settings
 
 
 class NikiConverter:
@@ -7,7 +8,7 @@ class NikiConverter:
     Class to convert Niki data to the numbers needed
     static for now, should be replaced by oauth security model
     """
-    oauth_token = "5060cbaf-35f5-41fe-9792-3c0c30012b7d"
+    oauth_token = settings.NIKI_OAUTH_TOKEN
     api_url = "https://api.niki.nl"
 
     availability = []
