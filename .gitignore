@@ -1,0 +1,9 @@
+*.pyc
+.project
+.pydevproject
+db.sqlite3
+.settings
+*.log
+local_settings.py
+dist/
+django_niki_api.egg-inf/
